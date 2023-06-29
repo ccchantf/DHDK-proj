@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 5px;
+    background-color: #D8C4B6;
+    font-family: 'Eczar', serif;
+}
+
+h1{
+    color: rgb(226, 226, 226);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.navbar{
+    background-color: #F5EFE7;
+    margin-bottom: 10px;
+    /* position: fixed;
+    z-index: 2; */
+}
+
+.nav-item{
+    list-style: none;
+    font-size: large;
+}
+
+.main{
+    display: flex;
+    height: 700px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Libre Baskerville', serif;
+    background-color: #213555;
+    margin-right: 10px;
+    flex-basis: 70vw;
+    overflow: auto;
+    padding: 30px 40px 40px;
+    align-items: left;
+    color: rgb(205, 205, 205);
+    /* justify-content: center; */
+}
+
+.header-image{
+    display: block;
+    max-width: 100%;
+
+}
+
+#textContent{
+    text-align: left;
+    line-height: 1.75;
+}
+
+#textTitle{
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 1.5em;
+}
+
+.notes{
+    font-size: 0.7em;
+}
+
+.table{
+    border-collapse: separate;
+    color: #F5EFE7;
+    border-spacing: 10px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #F5EFE7;
+  padding: 10px;
+}
+
+.right{
+    display: flex;
+    flex-basis: 30vw;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.metadata {
+    flex: 1;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 10px;
+    /* position: fixed */
+    /* position: relative; */
+}
+
+.tickHistory{
+    background-color: #719EFF;
+}
+
+.tickChara{
+    background-color: #2C5FCD;
+}
+
+.tickRegion{
+    background-color: #002E92;
+}
+
+.topright {
+    /* top: 50px; */
+    right: 0;
+    margin-bottom: 10px;
+}
+  
+.middleright {
+    /* top: 200px; */
+    right: 0;
+    margin-bottom: 10px;
+}
+  
+.bottomright {
+    /* top: 350px; */
+    right: 0;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.widgetTitle{
+    /* font-style: italic; */
+    margin-top: 15px;
+    font-size: large;
+    text-align: center;
+    color:
+}
+
+.checkbox{
+    margin-left: 10px;
+}
+
+#myMap{
+    height: 100%;
+}
+
+#showList{
+    width: 100%;
+    word-wrap: break-word;
+}
+
+@media (min-width: 1000px) {
+    .container{
+        width: 1200px;
+    }
+}
+

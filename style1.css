@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 5px;
+    background-color: beige;
+    font-family: 'Eczar', serif;
+}
+
+h1{
+    color: rgb(70, 70, 70);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.navbar{
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 10px;
+    /* position: fixed;
+    z-index: 2; */
+}
+
+.nav-item{
+    list-style: none;
+    font-size: large;
+}
+
+.main{
+    display: flex;
+    height: 700px;
+}
+
+.header-image{
+    display: none;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    font-family: 'UnifrakturMaguntia', cursive;
+    background-color: burlywood;
+    margin-right: 10px;
+    flex-basis: 70vw;
+    overflow: auto;
+    padding: 80px 130px 130px;
+    align-items: center;
+    /* justify-content: center; */
+}
+/* 
+.floralHeader{
+    background-image: url('PngItem_964229.png');
+    background-position: top center;
+} */
+
+.date{
+    text-align: center;
+    align-items: center;
+}
+
+#textContent{
+    text-align: justify;
+    line-height: 1;
+    color: rgb(70, 70, 70);
+}
+
+#textContent div{
+    align-items: left;
+    text-align: left;
+}
+
+h3{
+    text-align: center;
+}
+
+#textTitle, .subtitle{
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 1.5em;
+}
+
+#textContent p:not(.subtitle)::first-letter{
+    font-size: 2.5em;
+    float: left;
+    line-height: 1;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+.right{
+    display: flex;
+    flex-basis: 30vw;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.metadata {
+    flex: 1;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 10px;
+    /* position: fixed */
+    /* position: relative; */
+}
+
+.tickHistory{
+    background-color: #FFC433;
+}
+
+.tickChara{
+    background-color: #FF8D47;
+}
+
+.tickRegion{
+    background-color: #DD560E;
+}
+
+.topright {
+    /* top: 50px; */
+    right: 0;
+    margin-bottom: 10px;
+}
+  
+.middleright {
+    /* top: 200px; */
+    right: 0;
+    margin-bottom: 10px;
+}
+  
+.bottomright {
+    /* top: 350px; */
+    right: 0;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.checkbox{
+    margin-left: 10px;
+}
+
+.widgetTitle{
+    /* font-style: italic; */
+    margin-top: 15px;
+    font-size: large;
+    text-align: center;
+    color:
+}
+
+#myMap{
+    height: 100%;
+}
+
+#showList{
+    width: 100%;
+    word-wrap: break-word;
+}
+
+@media (min-width: 1000px) {
+    .container{
+        width: 1200px;
+    }
+}
+
